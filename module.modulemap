@@ -1,0 +1,18 @@
+module CClutterGtk [system] {
+	header "clutter_bridging.h"
+
+	link "clutter-gtk-1.0"
+	link "clutter-1.0"
+	link "cogl-pango"
+	link "cogl"
+        link "cogl-path"
+        link "pango-1.0"
+        link "pangoft2-1.0"
+        link "fontconfig"
+        link "freetype"
+
+	link "gobject-2.0"
+	link "glib-2.0"
+
+	export *
+}
