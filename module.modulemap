@@ -1,5 +1,5 @@
 module CClutterGtk [system] {
-	header "clutter_bridging.h"
+	header "clutter_gtk_bridging.h"
 
 	link "clutter-gtk-1.0"
 	link "clutter-1.0"
